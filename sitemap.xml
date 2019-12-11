@@ -4,7 +4,27 @@
   
   <url>
     <loc>https://ajthor.github.io/</loc>
-    <lastmod>2019-12-09T23:09:21+00:00</lastmod>
+    <lastmod>2019-12-10T23:40:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajthor.github.io/post/</loc>
+    <lastmod>2019-12-10T23:40:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajthor.github.io/post/stochastic-reachability/</loc>
+    <lastmod>2019-12-10T23:40:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajthor.github.io/post/kernel-distribution-embeddings/</loc>
+    <lastmod>2019-12-10T23:40:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajthor.github.io/post/kernel-methods/</loc>
+    <lastmod>2019-12-10T23:35:04+00:00</lastmod>
   </url>
   
   <url>
@@ -78,10 +98,6 @@
   
   <url>
     <loc>https://ajthor.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ajthor.github.io/post/</loc>
   </url>
   
   <url>
