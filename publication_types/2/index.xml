@@ -5,12 +5,20 @@
     <link>https://ajthor.github.io/publication_types/2/</link>
       <atom:link href="https://ajthor.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ajthor.github.io/img/icon-192.png</url>
       <title>2</title>
       <link>https://ajthor.github.io/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Data-Driven Stochastic Reachability Using Hilbert Space Embeddings</title>
+      <link>https://ajthor.github.io/publication/thorpe-2020-data/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ajthor.github.io/publication/thorpe-2020-data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Model-Free Stochastic Reachability Using Kernel Distribution Embeddings</title>

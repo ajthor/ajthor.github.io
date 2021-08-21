@@ -5,7 +5,7 @@
     <link>https://ajthor.github.io/authors/</link>
       <atom:link href="https://ajthor.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ajthor.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,15 +15,23 @@
     <item>
       <title>Adam J Thorpe</title>
       <link>https://ajthor.github.io/authors/adam-j-thorpe/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://ajthor.github.io/authors/adam-j-thorpe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kendric R Ortiz</title>
+      <link>https://ajthor.github.io/authors/kendric-r-ortiz/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ajthor.github.io/authors/kendric-r-ortiz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meeko MK Oishi</title>
       <link>https://ajthor.github.io/authors/meeko-mk-oishi/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://ajthor.github.io/authors/meeko-mk-oishi/</guid>
       <description></description>
     </item>
@@ -31,7 +39,7 @@
     <item>
       <title>Vignesh Sivaramakrishnan</title>
       <link>https://ajthor.github.io/authors/vignesh-sivaramakrishnan/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://ajthor.github.io/authors/vignesh-sivaramakrishnan/</guid>
       <description></description>
     </item>

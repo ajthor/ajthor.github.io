@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meeko MK Oishi | Adam Thorpe</title>
-    <link>https://ajthor.github.io/authors/meeko-mk-oishi/</link>
-      <atom:link href="https://ajthor.github.io/authors/meeko-mk-oishi/index.xml" rel="self" type="application/rss+xml" />
-    <description>Meeko MK Oishi</description>
+    <title>Kendric R Ortiz | Adam Thorpe</title>
+    <link>https://ajthor.github.io/authors/kendric-r-ortiz/</link>
+      <atom:link href="https://ajthor.github.io/authors/kendric-r-ortiz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kendric R Ortiz</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ajthor.github.io/img/icon-192.png</url>
-      <title>Meeko MK Oishi</title>
-      <link>https://ajthor.github.io/authors/meeko-mk-oishi/</link>
+      <title>Kendric R Ortiz</title>
+      <link>https://ajthor.github.io/authors/kendric-r-ortiz/</link>
     </image>
-    
-    <item>
-      <title>Approximate stochastic reachability for high dimensional systems</title>
-      <link>https://ajthor.github.io/publication/thorpe-2021-approximate/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://ajthor.github.io/publication/thorpe-2021-approximate/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Data-Driven Stochastic Reachability Using Hilbert Space Embeddings</title>
@@ -41,22 +33,6 @@
       <link>https://ajthor.github.io/publication/thorpe-2020-sreachtools/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://ajthor.github.io/publication/thorpe-2020-sreachtools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model-Free Stochastic Reachability Using Kernel Distribution Embeddings</title>
-      <link>https://ajthor.github.io/publication/thorpe-2019-model/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ajthor.github.io/publication/thorpe-2019-model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stochastic Reachability for Systems up to a Million Dimensions</title>
-      <link>https://ajthor.github.io/publication/thorpe-2021-stochastic/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ajthor.github.io/publication/thorpe-2021-stochastic/</guid>
       <description></description>
     </item>
     

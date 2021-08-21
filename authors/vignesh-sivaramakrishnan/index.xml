@@ -5,7 +5,7 @@
     <link>https://ajthor.github.io/authors/vignesh-sivaramakrishnan/</link>
       <atom:link href="https://ajthor.github.io/authors/vignesh-sivaramakrishnan/index.xml" rel="self" type="application/rss+xml" />
     <description>Vignesh Sivaramakrishnan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ajthor.github.io/img/icon-192.png</url>
       <title>Vignesh Sivaramakrishnan</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Stochastic Reachability for Systems up to a Million Dimensions</title>
-      <link>https://ajthor.github.io/publication/thorpe-2019-stochastic/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ajthor.github.io/publication/thorpe-2019-stochastic/</guid>
+      <title>Approximate stochastic reachability for high dimensional systems</title>
+      <link>https://ajthor.github.io/publication/thorpe-2021-approximate/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ajthor.github.io/publication/thorpe-2021-approximate/</guid>
       <description></description>
     </item>
     

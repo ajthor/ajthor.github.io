@@ -5,12 +5,44 @@
     <link>https://ajthor.github.io/</link>
       <atom:link href="https://ajthor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Adam Thorpe</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 10 Dec 2019 23:40:32 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ajthor.github.io/img/icon-192.png</url>
       <title>Adam Thorpe</title>
       <link>https://ajthor.github.io/</link>
     </image>
+    
+    <item>
+      <title>Approximate stochastic reachability for high dimensional systems</title>
+      <link>https://ajthor.github.io/publication/thorpe-2021-approximate/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ajthor.github.io/publication/thorpe-2021-approximate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Stochastic Reachability Using Hilbert Space Embeddings</title>
+      <link>https://ajthor.github.io/publication/thorpe-2020-data/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ajthor.github.io/publication/thorpe-2020-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Approximate Forward Reachable Sets Using Separating Kernels</title>
+      <link>https://ajthor.github.io/publication/thorpe-2021-learning/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ajthor.github.io/publication/thorpe-2021-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SReachTools Kernel Module: Data-Driven Stochastic Reachability Using Hilbert Space Embeddings of Distributions</title>
+      <link>https://ajthor.github.io/publication/thorpe-2020-sreachtools/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ajthor.github.io/publication/thorpe-2020-sreachtools/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Stochastic Reachability</title>
@@ -82,9 +114,9 @@ $$V_{k}(x) ={} \boldsymbol{1}_{\mathcal{K}}(x)\mathbb{E}_{\boldsymbol{y} \sim Q(
     
     <item>
       <title>Stochastic Reachability for Systems up to a Million Dimensions</title>
-      <link>https://ajthor.github.io/publication/thorpe-2019-stochastic/</link>
+      <link>https://ajthor.github.io/publication/thorpe-2021-stochastic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ajthor.github.io/publication/thorpe-2019-stochastic/</guid>
+      <guid>https://ajthor.github.io/publication/thorpe-2021-stochastic/</guid>
       <description></description>
     </item>
     
