@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "English Language Instructor"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Experience"
+permalink: /teaching/2012-english-instructor-prague
+venue: "Prague, Czech Republic"
+date: 2012-01-01
+location: "Prague, Czech Republic"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+I spent several years abroad as an English language instructor, primarily for corporate clients in one-on-one and small group settings. 

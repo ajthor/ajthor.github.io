@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Engineering, University of New Mexico, 2023
+* Ph.D. in Engineering, University of New Mexico, 2023
 * M.S. in Electrical Engineering, University of New Mexico, 2019
 * B.S. in Electrical Engineering, University of New Mexico, 2017
 * B.A. in Languages, University of New Mexico, 2010

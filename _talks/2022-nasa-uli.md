@@ -12,5 +12,5 @@ Modern autonomous control systems that operate in stochastic environments are fa
 
 We present a method to compute approximate solutions to stochastic optimal control problems subject to stochastic constraints based in the theory of kernel methods. We employ the theory of kernel embeddings of distributions, a nonparametric statistical learning technique which represents integral operators as elements in a high-dimensional space of functions known as a reproducing kernel Hilbert space. We show that constructing a stochastic optimal policy can be formulated as a linear program under this representation. The benefit of our approach is not only in the computational efficiency of an LP solution, but also that we do not rely upon a priori model assumptions, and assume no prior knowledge of the structure of the disturbance or the system stochasticity.  We apply our approach to motion planning problems in stochastic environments. 
 
-[Slides](http://academicpages.github.io/files/Presentation_NASA_ULI.pdf)
+[Slides](http://ajthor.github.io/files/Presentation_NASA_ULI.pdf)
 [YouTube](https://youtu.be/q4Itz-qpoAE?si=JNMGTpL1zQbzs3hg)
