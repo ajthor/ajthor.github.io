@@ -2,9 +2,9 @@
 title: "LP Solutions for Stochastic Optimal Control Problems via Hilbert Space Embeddings of Distributions"
 collection: talks
 type: "Talk"
-permalink: /talks/2021-nasa-uli
+permalink: /talks/2022-nasa-uli
 venue: "Stanford University"
-date: 2021-
+date: 2022-01-11
 location: "Palo Alto CA, USA (Virtual)"
 ---
 
