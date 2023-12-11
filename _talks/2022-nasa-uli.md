@@ -18,3 +18,5 @@ We present a method to compute approximate solutions to stochastic optimal contr
 
 [Slides](http://ajthor.github.io/files/Presentation_NASA_ULI.pdf)
 [YouTube](https://youtu.be/q4Itz-qpoAE?si=JNMGTpL1zQbzs3hg)
+
+{% raw %}{% include video id="q4Itz-qpoAE" provider="youtube" %}{% endraw %}
