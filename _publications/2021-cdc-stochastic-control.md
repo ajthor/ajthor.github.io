@@ -11,10 +11,7 @@ citation:
 
 Kernel embeddings of distributions have recently gained significant attention in the machine learning community as a data-driven technique for representing probability distributions. Broadly, these techniques enable efficient computation of expectations by representing integral operators as elements in a reproducing kernel Hilbert space. We apply these techniques to the area of stochastic optimal control theory and present a method to compute approximately optimal policies for stochastic systems with arbitrary disturbances. Our approach reduces the optimization problem to a linear program, which can easily be solved via the Lagrangian dual, without resorting to gradient-based optimization algorithms. We focus on discrete- time dynamic programming, and demonstrate our proposed approach on a linear regulation problem, and on a nonlinear target tracking problem. This approach is broadly applicable to a wide variety of optimal control problems, and provides a means of working with stochastic systems in a data-driven setting.
 
-
-<!-- Add an un-editable text box with the bibtex inside and a button above to copy to clipboard. The copy command should use navigator if possible but fall back to exec copy. -->
-<br />
-<div id="bibtex" style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
+<pre id="bibtex">
 @INPROCEEDINGS{9682801,
     author={Thorpe, Adam J. and Oishi, Meeko M. K.},
     booktitle={2021 60th IEEE Conference on Decision and Control (CDC)}, 
@@ -25,16 +22,4 @@ Kernel embeddings of distributions have recently gained significant attention in
     pages={904-911},
     doi={10.1109/CDC45484.2021.9682801}
 }
-</div>
-
-<button onclick="copyToClipboard('#bibtex')">Copy BibTeX</button>
-
-<script>
-function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
-</script>
+</pre>
