@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2022-stanford
 venue: "Stanford University"
-date: 2013-06-30
+date: 2022-06-30
 location: "Palo Alto CA, USA (Virtual)"
 ---
 
