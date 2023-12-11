@@ -6,6 +6,10 @@ permalink: /talks/2022-nasa-uli
 venue: "Stanford University"
 date: 2022-01-11
 location: "Palo Alto CA, USA (Virtual)"
+header:
+  video:
+    id: q4Itz-qpoAE
+    provider: youtube
 ---
 
 Modern autonomous control systems that operate in stochastic environments are faced with significant challenges due to uncertainty. Model misspecifications may fail to capture statistical phenomena or nonlinear effects, which can lead to unsafe operation or provide solutions which may fail to satisfy real-world constraints. This motivates the need for control algorithms which are data-driven, that use historical observations taken from the system evolution or generated via high-fidelity simulation to construct an implicit model of the system dynamics without resorting to explicit model assumptions.
