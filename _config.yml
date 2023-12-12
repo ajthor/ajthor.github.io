@@ -22,7 +22,7 @@ description: "Autonomy & Controls Researcher"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://ajthor.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 repository               : "ajthor/ajthor.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: "/images/profile.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -99,7 +99,7 @@ defaults:
 # Site Author
 author:
   name: "Dr. Adam Thorpe"
-  picture: /images/profile.png
+  picture: "/images/profile.png"
   email:
   bio: "Autonomy & Controls Researcher"
   googlescholar    : "https://scholar.google.com/citations?user=bApIsIAAAAAJ" 
