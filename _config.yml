@@ -99,7 +99,7 @@ defaults:
 # Site Author
 author:
   name: "Dr. Adam Thorpe"
-  picture: "profile.png"
+  picture: /images/profile.png
   email:
   bio: "Autonomy & Controls Researcher"
   googlescholar    : "https://scholar.google.com/citations?user=bApIsIAAAAAJ" 
@@ -107,12 +107,15 @@ author:
   orcid            : "https://orcid.org/0000-0001-7120-0913"
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: GitHub
+      url: https://github.com/ajthor
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
+  - title: GitHub
+    url: https://github.com/ajthor
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
