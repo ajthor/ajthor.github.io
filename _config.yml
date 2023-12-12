@@ -85,6 +85,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-include-cache
+  - jekyll-scholar
 
 # Collections
 collections:
