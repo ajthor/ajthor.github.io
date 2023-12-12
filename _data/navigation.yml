@@ -1,13 +1,17 @@
-# main links links
-main:
-  - title: "Publications"
-    url: /publications/
+# Sample site navigation bar links
 
-  - title: "Talks"
-    url: /talks/    
+- title: Home
+  url: /
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "CV"
-    url: /cv/
+- title: Bio
+  url: /bio/
+
+- title: Papers
+  url: /papers/
+
+- title: Talks
+  url: /talks/
+  
+- title: Search
+  url: /search/
+  
