@@ -1,8 +1,8 @@
 ---
 permalink: /
 layout: page
-title: "Dr. Adam Thorpe"
-subtitle: "Autonomy & Controls Researcher"
+# title: "Dr. Adam Thorpe"
+# subtitle: "Autonomy & Controls Researcher"
 show-avatar: true
 redirect_from:
   - /bio/
