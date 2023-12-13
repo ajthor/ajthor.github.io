@@ -1,5 +1,6 @@
 ---
 title: Docker Tutorial
+permalink: /posts/2022-tutorial-docker
 categories:
   - tutorials
 tags:
