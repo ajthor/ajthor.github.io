@@ -6,3 +6,8 @@ ol.bibliography {
   margin-left: 0;
   padding-left: 0;
 }
+
+// Increase spacing around list items.
+ol.bibliography li {
+  margin-bottom: 1rem;
+}
