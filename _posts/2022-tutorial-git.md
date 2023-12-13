@@ -8,3 +8,5 @@ tags:
   - tutorial
 link: http://ajthor.github.io/files/Tutorial_Git.pdf
 ---
+
+Check out my [tutorial on git](http://ajthor.github.io/files/Tutorial_Git.pdf)!
