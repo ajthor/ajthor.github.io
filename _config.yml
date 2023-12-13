@@ -152,7 +152,7 @@ scholar:
   sort_by: year,month
   order: descending
 
-  details_layout: bibtex.html
+  details_layout: bibpage.html
   details_link: "Read More"
 
   bibliography_template: bibitem

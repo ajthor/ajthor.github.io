@@ -20,11 +20,17 @@ ol.bibliography li {
 //   margin-left: 0.5rem;
 // }
 
-.simple-biblink {
+.bibitem-link {
   text-decoration: none;
   color: inherit;
   &:hover {
     text-decoration: none;
     color: inherit;
   }
+}
+
+.bibpage-bibtex {
+  background-color: #f8f8f8;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
 }

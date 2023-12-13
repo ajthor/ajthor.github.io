@@ -9,6 +9,8 @@ layout: page
 <h2>{{ page.entry.booktitle }}</h2>
 {% endif %}
 
+<p>{{ page.entry.author }}</p>
+
 {% if page.entry.url %}
 <p><a href="{{ page.entry.url }}">{{ page.entry.url }}</a></p>
 {% endif %}
@@ -17,5 +19,5 @@ layout: page
 <p>{{ page.entry.abstract }}</p>
 {% endif %}
 
-<pre>{{ entry.bibtex }}</pre>
+<pre class="bibpage-bibtex">{{ page.entry.bibtex }}</pre>
 
