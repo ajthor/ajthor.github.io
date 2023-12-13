@@ -16,6 +16,6 @@ permalink: /papers/
 
 {% bibliography --file conferences %}
 
-<!-- ## Other -->
+## Other
 
-<!-- {% bibliography --file other %} -->
+{% bibliography --file other %}
