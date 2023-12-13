@@ -11,3 +11,9 @@ ol.bibliography {
 ol.bibliography li {
   margin-bottom: 1rem;
 }
+
+.page-title {
+  @include fluid-type($min-vw, $max-vw, 28px, 40px);
+}
+
+}
