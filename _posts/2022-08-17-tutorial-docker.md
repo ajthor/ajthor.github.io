@@ -1,7 +1,7 @@
 ---
 title: Docker Tutorial
-date: 2022-01-01
-permalink: /posts/2022-tutorial-docker
+date: 2022-08-17
+permalink: /posts/2022-08-17-tutorial-docker
 categories:
   - tutorials
 tags:

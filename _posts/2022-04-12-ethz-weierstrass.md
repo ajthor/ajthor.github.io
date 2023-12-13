@@ -2,7 +2,7 @@
 title: "Stochastic Optimal Control & Safety Via Kernel Embeddings: A Data-Driven Approach"
 collection: talks
 type: "Talk"
-permalink: /talks/2022-ethz-weierstrass
+permalink: /talks/2022-04-12-ethz-weierstrass
 venue: "Weierstrass Institute for Applied Analysis and Stochastics, Berlin (virtual)"
 date: 2022-04-12
 location: "Berlin, Germany (Virtual)"
