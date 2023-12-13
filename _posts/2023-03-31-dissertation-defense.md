@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2023-dissertation-defense
 venue: "University of New Mexico, Albuquerque NM, USA"
-date: 2023-04-21
+date: 2023-03-31
 location: "Albuquerque, NM"
 ---
 
