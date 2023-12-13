@@ -119,11 +119,14 @@ author:
   picture: "/images/profile_cropped.png"
   email:
   bio: "Autonomy & Controls Researcher"
-  googlescholar    : "https://scholar.google.com/citations?user=bApIsIAAAAAJ" 
   github: "ajthor"
   orcid            : "https://orcid.org/0000-0001-7120-0913"
+  scholar: bApIsIAAAAAJ
   twitter:
   links:
+    - title: Scholar
+      url: "https://scholar.google.com/citations?user=bApIsIAAAAAJ" 
+      icon: ai ai-google-scholar
     - title: GitHub
       url: https://github.com/ajthor
       icon: fab fa-github-square
@@ -138,6 +141,10 @@ footer_links:
     icon: fas fa-rss-square
 
 scholar:
+  last_name: Thorpe
+  first_name: Adam
   style: ieee-with-url
   sort_by: year,month
   order: descending
+  details_layout: bibtex.html
+  details_link: "Read More"
