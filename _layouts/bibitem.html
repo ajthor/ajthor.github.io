@@ -1,3 +1,7 @@
 ---
 ---
-<a class="simple-biblink" href="{{ link }}">{{ reference }}</a>
+{% if entry.url %}
+<a class="simple-biblink" href="{{ entry.url }}">{{ reference }}</a>
+{% else %}
+{{ reference }}
+{% endif %}
