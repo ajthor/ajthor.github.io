@@ -8,14 +8,6 @@ permalink: /papers/
 
 {% bibliography --file future %}
 
-## Journals
+## Published
 
-{% bibliography --file journals %}
-
-## Conferences
-
-{% bibliography --file conferences %}
-
-## Other
-
-{% bibliography --file other %}
+{% bibliography %}
