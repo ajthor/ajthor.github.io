@@ -144,10 +144,15 @@ footer_links:
     icon: fas fa-rss-square
 
 scholar:
-  last_name: Thorpe
-  first_name: Adam
+  last_name: [Thorpe]
+  first_name: [Adam, A.]
+  
   style: ieee-with-url
+  
   sort_by: year,month
   order: descending
+
   details_layout: bibtex.html
   details_link: "Read More"
+
+  bibliography_template: bibitem

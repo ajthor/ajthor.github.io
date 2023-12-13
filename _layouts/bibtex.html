@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 
 <main id="main" class="main-content" aria-label="Content">
@@ -17,16 +17,14 @@ layout: page
         {% else %}
           <h1 id="page-title" class="page-title">{{ title }}</h1>
         {% endif %}
-      </header>
-      <div class="page-content">
         {% if page.entry.year %}
         <div class="page-date">{{ page.entry.year }}</div>
         {% endif %}
-
         {% if page.entry.author %}
         <p>{{ page.entry.author }}</p>
         {% endif %}
-
+      </header>
+      <div class="page-content">
         {% if page.entry.journal %}
         <p>{{ page.entry.journal }}</p>
         {% endif %}
@@ -38,11 +36,7 @@ layout: page
         <p>{{ page.entry.abstract }}</p>
         {% endif %}
 
-        {% if page.entry.doi != "" %}
-        <p><a href="https://doi.org/{{ page.entry.doi }}">https://doi.org/{{ page.entry.doi }}</a></p>
-        {% endif %}
-
-        {% if page.entry.url != "" %}
+        {% if page.entry.url %}
         <p><a href="{{ page.entry.url }}">{{ page.entry.url }}</a></p>
         {% endif %}
 
