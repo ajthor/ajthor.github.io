@@ -5,29 +5,29 @@ layout: default
 
 <h1>{{ page.entry.title }}</h1>
     
-{{ if page.entry.author }}
+{% if page.entry.author %}
 <p>{{ page.entry.author }}</p>
-{{ endif }}
+{% endif %}
 
-{{ if page.entry.journal }}
+{% if page.entry.journal %}
 <p>{{ page.entry.journal }}</p>
-{{ endif }}
-{{ if page.entry.booktitle }}
+{% endif %}
+{% if page.entry.booktitle %}
 <p>{{ page.entry.booktitle }}</p>
-{{ endif }}
+{% endif %}
 
-{{ if page.entry.year }}
+{% if page.entry.year %}
 <p>{{ page.entry.year }}</p>
-{{ endif }}
+{% endif %}
 
-{{ if page.entry.abstract }}
+{% if page.entry.abstract %}
 <p>{{ page.entry.abstract }}</p>
-{{ endif }}
+{% endif %}
 
-{{ if page.entry.doi }}
+{% if page.entry.doi %}
 <p><a href="https://doi.org/{{ page.entry.doi }}">https://doi.org/{{ page.entry.doi }}</a></p>
-{{ endif }}
+{% endif %}
 
-{{ if page.entry.url }}
+{% if page.entry.url %}
 <p><a href="{{ page.entry.url }}">{{ page.entry.url }}</a></p>
-{{ endif }}
+{% endif %}
