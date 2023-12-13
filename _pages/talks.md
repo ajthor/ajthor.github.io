@@ -1,6 +1,7 @@
 ---
 title: Talks
-layout: posts
+layout: collection
 permalink: /talks/
+collection: talks
 entries_layout: list
 ---
