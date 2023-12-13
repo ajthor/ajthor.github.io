@@ -135,4 +135,6 @@ footer_links:
     icon: fas fa-rss-square
 
 scholar:
-  style: ieee-with-url
+  style: nature
+  sort_by: year,month
+  order: descending
