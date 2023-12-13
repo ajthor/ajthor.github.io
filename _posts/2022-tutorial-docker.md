@@ -6,7 +6,7 @@ categories:
   - tutorials
 tags:
   - tutorial
-link: http://ajthor.github.io/files/Tutorial_Docker.pdf
+link: http://ajthor.github.io/files/docker_tutorial.pdf
 ---
 
-Check out my [tutorial on docker](http://ajthor.github.io/files/Tutorial_Docker.pdf)!
+Check out my [tutorial on docker](http://ajthor.github.io/files/docker_tutorial.pdf)!
