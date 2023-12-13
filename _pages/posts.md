@@ -1,6 +1,6 @@
 ---
 title: Posts
-layout: collection
+layout: posts
 permalink: /posts/
 show_excerpts: true
 entries_layout: list
