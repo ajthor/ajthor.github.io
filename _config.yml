@@ -90,6 +90,9 @@ plugins:
 
 # Collections
 collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -135,6 +138,6 @@ footer_links:
     icon: fas fa-rss-square
 
 scholar:
-  style: nature
+  style: ieee-with-url
   sort_by: year,month
   order: descending

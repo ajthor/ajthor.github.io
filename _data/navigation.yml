@@ -1,7 +1,7 @@
 # Sample site navigation bar links
 
-- title: Home
-  url: /
+# - title: Home
+#   url: /
 
 - title: Bio
   url: /bio/
@@ -11,6 +11,9 @@
 
 - title: Talks
   url: /talks/
+
+- title: Posts
+  url: /posts/
   
 - title: Search
   url: /search/

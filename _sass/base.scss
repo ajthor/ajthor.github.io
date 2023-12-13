@@ -1,8 +1,8 @@
 
-// Change the bibliography class ordered list to not display the numbers.
-.bibliography ol {
-  list-style-type: none;
-  counter-reset: item;
-  margin: 0;
-  padding: 0;
+// Change <ol class="bibliography"> to not display the numbers. 
+ol.bibliography {
+  list-style: none;
+  counter-reset: bibliography;
+  margin-left: 0;
+  padding-left: 0;
 }
