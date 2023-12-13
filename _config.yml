@@ -91,9 +91,6 @@ plugins:
 
 # Collections
 collections:
-  posts:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
