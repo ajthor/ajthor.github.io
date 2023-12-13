@@ -19,3 +19,12 @@ ol.bibliography li {
 // ol.bibliography a.details {
 //   margin-left: 0.5rem;
 // }
+
+.simple-biblink {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}

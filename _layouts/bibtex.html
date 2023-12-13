@@ -1,50 +1,21 @@
 ---
-layout: default
+layout: page
 ---
 
-<main id="main" class="main-content" aria-label="Content">
-  <article>
-    {% include page-image.html %}
-    <div class="page-wrapper">
-      <header class="page-header">
-        {% if page.id %}
-          {% assign title = page.title | markdownify | strip_html %}
-        {% else %}
-          {% assign title = page.title %}
-        {% endif %}
-        {% if page.entry.url %}
-          <h1 id="page-title" class="page-title"><a href="{{ page.entry.url }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
-        {% else %}
-          <h1 id="page-title" class="page-title">{{ title }}</h1>
-        {% endif %}
-        {% if page.entry.year %}
-        <div class="page-date">{{ page.entry.year }}</div>
-        {% endif %}
-        {% if page.entry.author %}
-        <p>{{ page.entry.author }}</p>
-        {% endif %}
-      </header>
-      <div class="page-content">
-        {% if page.entry.journal %}
-        <p>{{ page.entry.journal }}</p>
-        {% endif %}
-        {% if page.entry.booktitle %}
-        <p>{{ page.entry.booktitle }}</p>
-        {% endif %}
+{% if page.entry.journal %}
+<h2>{{ page.entry.journal }}</h2>
+{% endif %}
+{% if page.entry.booktitle %}
+<h2>{{ page.entry.booktitle }}</h2>
+{% endif %}
 
-        {% if page.entry.abstract %}
-        <p>{{ page.entry.abstract }}</p>
-        {% endif %}
+{% if page.entry.url %}
+<p><a href="{{ page.entry.url }}">{{ page.entry.url }}</a></p>
+{% endif %}
 
-        {% if page.entry.url %}
-        <p><a href="{{ page.entry.url }}">{{ page.entry.url }}</a></p>
-        {% endif %}
+{% if page.entry.abstract %}
+<p>{{ page.entry.abstract }}</p>
+{% endif %}
 
-        {% if page.share %}
-          {% include social-share.html %}
-        {% endif %}
-      </div>
-    </div>
-  </article>
-</main>
+<pre>{{ entry.bibtex }}</pre>
 
