@@ -52,8 +52,8 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
 search_full_content: false # can have performance implications for large sites
@@ -89,11 +89,11 @@ plugins:
   - jekyll-include-cache
   - jekyll-scholar
 
-# Collections
-collections:
-  talks:
-    output: true
-    permalink: /:collection/:path/
+# # Collections
+# collections:
+#   talks:
+#     output: true
+#     permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -104,12 +104,12 @@ defaults:
     values:
       layout: post
       share: true
-  - scope:
-      path: "_talks"
-      type: talks
-    values:
-      layout: page
-      share: true
+  # - scope:
+  #     path: "_talks"
+  #     type: talks
+  #   values:
+  #     layout: page
+  #     share: true
 
 # Site Author
 author:

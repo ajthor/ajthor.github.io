@@ -4,7 +4,7 @@ date: 2023-12-01
 permalink: /posts/2023-faculty-application-resources
 tags:
   - faculty
-hidden: true
+# hidden: true
 ---
 
 ## Faculty Application Resources
