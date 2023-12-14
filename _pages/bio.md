@@ -13,7 +13,10 @@ I am a postdoctoral researcher at the [ODEN Institute for Computational Engineer
 
 I am broadly interested in topics related to data-driven methods for control, human-centered autonomy, and statistical machine learning techniques. 
 
-Please feel free to reach out to me via email: <span class="obfuscated-email">adam.thorpe@<b>ignore.me</b>austin.utexas.edu</span> 
+* Office: POB 5.416
+* Contact: <span class="obfuscated-email">adam.thorpe@<b>ignore.me</b>austin.utexas.edu</span> 
+
+Please feel free to reach out to me via email if you are interested in collaborating or discussing research ideas.
 
 ------
 
@@ -24,5 +27,7 @@ My past research focused on techniques to solve stochastic optimal control probl
 ------
 
 ## Recent Papers
+
+Please check out the full list [here]({{ site.url }}/papers/) or on my [Google Scholar](https://scholar.google.com/citations?user=bApIsIAAAAAJ) page.
 
 {% bibliography --max 5 %}
