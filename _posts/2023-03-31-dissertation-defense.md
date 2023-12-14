@@ -10,6 +10,8 @@ location: "Albuquerque, NM"
 
 I successfully defended my dissertation with distinction in March 2023! My dissertation, titled "Data-Driven Stochastic Optimal Control Using Hilbert Space Embeddings of Distributions", was advised by [Dr. Meeko Oishi](https://www.unm.edu/~oishi/).
 
+A special thanks to my committee members: [Dr. Meeko Oishi](https://www.unm.edu/~oishi/), [Dr. Rafael Fierro](https://ece.unm.edu/faculty-staff/electrical-and-computer/rafael-fierro.html), [Dr. Eirini Tsiropoulou](http://ece-research.unm.edu/tsiropoulou/Home.html), [Dr. Claus Danielson](https://www.unm.edu/~cdanielson/)!
+
 I've included the abstract and slides from my defense below.
 
 ## Abstract
