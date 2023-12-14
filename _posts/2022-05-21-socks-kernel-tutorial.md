@@ -1,6 +1,6 @@
 ---
 title: SOCKS Kernel Tutorial
-date: 2022-02-17
+date: 2022-05-21
 permalink: /posts/2022-05-21-socks-kernel-tutorial
 categories:
   - code
