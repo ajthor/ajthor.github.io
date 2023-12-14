@@ -9,7 +9,9 @@ redirect_from:
   - /bio.html
 ---
 
-I am a postdoctoral researcher at the [ODEN Institute for Computational Engineering & Science](https://oden.utexas.edu) at the [University of Texas at Austin](https://www.utexas.edu). I received my Ph.D. in 2023 from the [University of New Mexico](https://www.unm.edu) and wrote my [dissertation](https://www.proquest.com/dissertations-theses/data-driven-stochastic-optimal-control-using/docview/2881072078/se-2) on methods for data-driven stochastic optimal control using Hilbert space embeddings of distributions. 
+I am a postdoctoral researcher at the [ODEN Institute for Computational Engineering & Science](https://oden.utexas.edu) at the [University of Texas at Austin](https://www.utexas.edu). 
+
+I received my Ph.D. in 2023 from the [University of New Mexico](https://www.unm.edu) and wrote my [dissertation](https://www.proquest.com/dissertations-theses/data-driven-stochastic-optimal-control-using/docview/2881072078/se-2) on methods for data-driven stochastic optimal control using Hilbert space embeddings of distributions. 
 
 I am broadly interested in topics related to data-driven methods for control, human-centered autonomy, and statistical machine learning techniques. 
 
