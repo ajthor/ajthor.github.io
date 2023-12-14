@@ -13,7 +13,7 @@ I am a postdoctoral researcher at the [ODEN Institute for Computational Engineer
 
 I am broadly interested in topics related to data-driven methods for control, human-centered autonomy, and statistical machine learning techniques. 
 
-Please feel free to reach out to me via email: <object class="svg-email-protection" data="{{ site.url }}/images/email.svg" type="image/svg+xml"></object>
+Please feel free to reach out to me via email: <span class="obfuscated-email">adam.thorpe@<b>ignore.me</b>austin.utexas.edu</span> 
 
 ------
 
