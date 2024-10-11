@@ -5,62 +5,337 @@ layout: layouts/base.njk
 
 <main class="bg-white sm:py-8">
   <div class="bg-slate-100 flex flex-col max-w-4xl sm:mx-auto sm:rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 sm:items-start items-center">
-    <div class="flex sm:flex-row sm:items-start sm:space-y-0 sm:space-x-4 flex-col items-center space-y-4">
-      <img src="/image/profile.jpg" alt="Profile Image" class="w-auto sm:h-64 sm:object-fill sm:rounded-l-lg">
+    <div class="flex sm:flex-row sm:items-start sm:space-y-0 sm:space-x-4 px-2 sm:px-0 flex-col items-center space-y-4">
+      <img src="/image/profile_cropped.png" alt="Profile Image" class="w-64 h-64 m-2 rounded-lg">
       <div class="p-1 items-center">
-        <h1 class="text-3xl font-bold py-1">Adam Thorpe</h1>
+        <h1 class="text-3xl font-bold py-2">Adam Thorpe</h1>
         <p class="text-sm">I am a postdoctoral researcher at the <a href="https://oden.utexas.edu">ODEN Institute for Computational Engineering &amp; Science</a> at the <a href="https://www.utexas.edu">University of Texas at Austin</a>. I received my Ph.D. in 2023 from the <a href="https://www.unm.edu">University of New Mexico</a>. I am broadly interested in topics related to data-driven methods for control, computational engineering, and human-centered autonomy.</p>
+        <p class="text-sm">Contact: <span class="obfuscated-email">adam.thorpe@<b>ignore.me</b>austin.utexas.edu</span></p>
 
-        <!-- <ul>
-          <li>Office: POB 5.416</li>
-          <li>Contact: <span class="obfuscated-email">adam.thorpe@<b>ignore.me</b>austin.utexas.edu</span></li>
-        </ul> -->
-
-        <div class="flex pt-4 pb-2 sm:pb-0">
-          <a href="https://scholar.google.com/citations?user=bApIsIAAAAAJ" class="flex-nowrap text-slate-100 bg-indigo-500 rounded-lg p-2 mr-1"><i class="fas fa-graduation-cap fa-lg mx-1"></i><span class="p-2">Scholar</span></a>
-          <a href="https://github.com/ajthor" class="flex-nowrap text-slate-100 bg-indigo-500 rounded-lg p-2 mr-1"><i class="fab fa-github fa-lg mx-1"></i><span class="p-2">GitHub</span></a>
-          <a href="CV.pdf" class="flex-nowrap text-slate-100 bg-indigo-500 rounded-lg p-2 mr-1"><i class="fas fa-file-alt fa-lg mx-1"></i><span class="p-2">CV</span></a>
+        <div class="flex items-center pt-4 pb-2 sm:pb-0">
+          <a class="flex-nowrap text-slate-100 bg-indigo-500 rounded-lg p-2 mr-1 hover:bg-indigo-600" href="https://scholar.google.com/citations?user=bApIsIAAAAAJ"><i class="fas fa-graduation-cap fa-lg mx-1"></i><span class="p-2">Scholar</span></a>
+          <a class="flex-nowrap text-slate-100 bg-indigo-500 rounded-lg p-2 mr-1 hover:bg-indigo-600" href="https://github.com/ajthor"><i class="fab fa-github fa-lg mx-1"></i><span class="p-2">GitHub</span></a>
+          <a class="flex-nowrap text-slate-100 bg-indigo-500 rounded-lg p-2 mr-1 hover:bg-indigo-600" href="assets/CV.pdf"><i class="fas fa-file-alt fa-lg mx-1"></i><span class="p-2">CV</span></a>
         </div>
       </div>
 
     </div>
+
   </div>
 
-  <div class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4">Publications</h2>
+  <div class="max-w-4xl mx-auto p-6 reference-container">
+    
+    <h2 class="text-2xl font-semibold mb-4">Research</h2>
 
-    <h3 class="text-xl font-semibold mb-2">Journal Articles</h3>
+    <blockquote class="">
+      My research focuses on developing data-driven methods for control, computational engineering, and human-centered autonomy. I am particularly interested in developing algorithms that leverage prior knowledge,
+    </blockquote>
 
-    <ol class="list-decimal list-outside">
-      <li>[1] T. Ingebrand, A. J. Thorpe, S. Goswami, K. Kumar, and U. Topcu, “Basis-to-basis operator learning using function encoders,” Computer Methods in Applied Mechanics and Engineering, 2024, (Submitted).</li>
-      <li>[2] A. J. Thorpe, F. Djeumou, C. Neary, M. M. K. Oishi, and U. Topcu, “Physics-informed kernel embeddings: A unified approach to integrating prior knowledge of dynamics and system properties,” Transactions on Automatic Control, 2024, (Submitted).</li>
-      <li>[3] H. Sridhar, G. Huang, A. Thorpe, M. Oishi, and P. J. Brandon, “Characterizing the effect of mind wandering on braking dynamics in partially autonomous vehicles,” Transactions on Cyber-Physical Systems, 2023.</li>
-      <li>[4] A. J. Thorpe, K. R. Ortiz, and M. M. K. Oishi, “State-based confidence bounds for data-driven stochastic reachability using Hilbert space embeddings,” Automatica, vol. 138, p. 110 146, 2022.</li>
-      <li>[5] A. P. Vinod, A. J. Thorpe, P. A. Olaniyi, T. H. Summers, and M. M. K. Oishi, “Sensor selection for dynamics-driven user-interface design,” IEEE Transactions on Control Systems Technology, vol. 30, no. 1, pp. 71–84, 2022.</li>
-      <li>[6] A. J. Thorpe and M. M. K. Oishi, “Model-free stochastic reachability using kernel distribution embeddings,” IEEE Control Systems Letters, vol. 4, no. 2, pp. 512–517, 2020.</li>
+    <h3 class="text-xl font-semibold mb-2 mt-4">Journal Articles</h3>
+
+    <ol class="list-decimal list-outside reference-list">
+      <li class="p-1 my-3 bg-yellow-50 sm:rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <div class="">
+            T. Ingebrand, A. J. Thorpe, S. Goswami, K. Kumar, and U. Topcu, “Basis-to-basis operator learning using function encoders,” Computer Methods in Applied Mechanics and Engineering, 2024, (Submitted).
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://arxiv.org/abs/2410.00171"><i class="fas fa-file-alt"></i> Paper</a>
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://github.com/tyler-ingebrand/OperatorFunctionEncoder"><i class="fas fa-code"></i> Code</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+        <a class="">
+          <div class="">
+            A. J. Thorpe, F. Djeumou, C. Neary, M. M. K. Oishi, and U. Topcu, “Physics-informed kernel embeddings: A unified approach to integrating prior knowledge of dynamics and system properties,” Transactions on Automatic Control, 2024, (Submitted).
+          </div>
+        </a>
+        <div class="mt-3 mb-1">
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            H. Sridhar, G. Huang, A. Thorpe, M. Oishi, and P. J. Brandon, “Characterizing the effect of mind wandering on braking dynamics in partially autonomous vehicles,” Transactions on Cyber-Physical Systems, 2023.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://dl.acm.org/doi/full/10.1145/3653678"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, K. R. Ortiz, and M. M. K. Oishi, “State-based confidence bounds for data-driven stochastic reachability using Hilbert space embeddings,” Automatica, vol. 138, p. 110 146, 2022.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://www.sciencedirect.com/science/article/pii/S0005109821006750"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. P. Vinod, A. J. Thorpe, P. A. Olaniyi, T. H. Summers, and M. M. K. Oishi, “Sensor selection for dynamics-driven user-interface design,” IEEE Transactions on Control Systems Technology, vol. 30, no. 1, pp. 71–84, 2022.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://ieeexplore.ieee.org/abstract/document/9352971"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe and M. M. K. Oishi, “Model-free stochastic reachability using kernel distribution embeddings,” IEEE Control Systems Letters, vol. 4, no. 2, pp. 512–517, 2020.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://ieeexplore.ieee.org/abstract/document/8906042"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
     </ol>
 
-    <h3 class="text-xl font-semibold mb-2">Conference Papers</h3>
+    <h3 class="text-xl font-semibold mb-2 mt-4">Conference Papers</h3>
 
-    <ol>
-      <li>[9] A. J. Thorpe, T. Ingebrand, S. Goswami, K. Kumar, and U. Topcu, “Basis-to-basis operator learning: A paradigm for scalable and interpretable operator learning on hilbert spaces,” in 2025 SIAM Conference on Computational Science and Engineering, (Submitted), 2025.</li>
-      <li>[14] Y. Yu, A. J. Thorpe, J. Milzman, D. Fridovich-Keil, and U. Topcu, “Sensing resource allocation against data-poisoning attacks in traffic routing,” in 2024 63rd IEEE Conference on Decision and Control, 2024.</li>
-      <li>[13] A. J. Thorpe, F. Djeumou, C. Neary, M. M. K. Oishi, and U. Topcu, “Physics-informed kernel embeddings: Integrating prior system knowledge with data-driven control,” in 2024 American Control Conference (ACC), 2024.</li>
-      <li>[12] K. R. Ortiz, J. G. Hunter, A. J. Thorpe, et al., “Assessing the relationship between learning stages and prefrontal cortex activation in a psychomotor task,” Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 2024.</li>
-      <li>[11] K. S. Miller, A. J. Thorpe, and U. Topcu, “Active learning of dynamics using prior domain knowledge in the sampling process,” in 2024 63rd IEEE Conference on Decision and Control, 2024.</li>
-      <li>[10] H. I. Khan, A. J. Thorpe, and D. Fridovich-Keil, “Act natural! projecting autonomous system trajectories into naturalistic behavior sets,” in IFAC Workshop on Cyber-Physical & Human Systems, 2024.</li>
-      <li>[7] T. Ingebrand, A. J. Thorpe, and U. Topcu, “Zero-shot transfer of neural ODEs,” in Advances in Neural Information Processing Systems, 2024.</li>
-      <li>[18] A. Thorpe, T. Lew, M. Oishi, and M. Pavone, “Data-driven chance constrained control using kernel distribution embeddings,” in Proceedings of The 4th Annual Learning for Dynamics and Control Conference, vol. 168, PMLR, 23–24 Jun 2022, pp. 790–802.</li>
-      <li>[17] K. R. Ortiz, A. J. Thorpe, A. Perez, M. Luster, B. J. Pitts, and M. Oishi, “Characterizing within-driver variability in driving dynamics during obstacle avoidance maneuvers,” in IFAC Workshop on Cyber-Physical & Human Systems, 2022.</li>
-      <li>[8] A. J. Thorpe and M. M. K. Oishi, “SOCKS: A stochastic optimal control and reachability toolbox using kernel methods,” in 25th ACM International Conference on Hybrid Systems: Computation and Control, ser. HSCC ’22, Milan, Italy: Association for Computing Machinery, 2022.</li>
-      <li>[23] A. J. Thorpe, V. Sivaramakrishnan, and M. M. K. Oishi, “Approximate stochastic reachability for high dimensional systems,” in 2021 American Control Conference, 2021, pp. 1287–1293.</li>
-      <li>[22] A. J. Thorpe, K. R. Ortiz, and M. M. K. Oishi, “SReachTools kernel module: Data-driven stochastic reachability using Hilbert space embeddings of distributions,” in 2021 60th IEEE Conference on Decision and Control, 2021, pp. 5073–5079.</li>
-      <li>[21] A. J. Thorpe, K. R. Ortiz, and M. M. K. Oishi, “Learning approximate forward reachable sets using separating kernels,” in Proceedings of the 3rd Conference on Learning for Dynamics and Control, vol. 144, PMLR, Jul. 2021, pp. 201–212.</li>
-      <li>[20] A. J. Thorpe and M. M. K. Oishi, “Stochastic optimal control via Hilbert space embeddings of distributions,” in 2021 60th IEEE Conference on Decision and Control, 2021, pp. 904–911.</li>
-      <li>[19] A. Abate, H. Blom, M. Bouissou, et al., “ARCH-COMP21 category report: Stochastic models,” in 8th International Workshop on Applied Verification of Continuous and Hybrid Systems (ARCH21), ser. EPiC Series in Computing, United Kingdom, Dec. 2021, pp. 55–89.</li>
-      <li>[16] A. J. Thorpe, J. A. Gonzales, and M. M. K. Oishi, “Data-driven stochastic optimal control using kernel gradients,” in 2023 American Control Conference (ACC), 2023, pp. 2548–2553.</li>
-      <li>[15] A. J. Thorpe, “Refining human-centered autonomy using side information,” in 14th ACM/IEEE International Conference on Cyber-Physical Systems, Humans in Cyber-Physical Systems Workshop, 2023.</li>
-      <li>[24] A. J. Thorpe, C. L. Arrington, and J. R. Pillars, “Additively manufactured electrochemical plating enclosures,” in ECS Meeting Abstracts, IOP Publishing, 2018, p. 857.</li>
+    <ol class="list-decimal list-outside reference-list">
+      <li class="p-1 my-3 bg-yellow-50 sm:rounded-lg shadow-sm  hover:shadow-md transition-shadow duration-300">
+        <a class="">
+          <div class="">
+            A. J. Thorpe, T. Ingebrand, S. Goswami, K. Kumar, and U. Topcu, “Basis-to-basis operator learning: A paradigm for scalable and interpretable operator learning on hilbert spaces,” in 2025 SIAM Conference on Computational Science and Engineering, (Submitted), 2025.
+        </div>
+        </a>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://github.com/tyler-ingebrand/OperatorFunctionEncoder"><i class="fas fa-code"></i> Code</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            Y. Yu, A. J. Thorpe, J. Milzman, D. Fridovich-Keil, and U. Topcu, “Sensing resource allocation against data-poisoning attacks in traffic routing,” in 2024 63rd IEEE Conference on Decision and Control, 2024.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://arxiv.org/abs/2404.02876"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            M. S. Yuh, E. Rabb, A. Thorpe and N. Jain, "Using Reward Shaping to Train Cognitive-Based Control Policies for Intelligent Tutoring Systems," 2024 American Control Conference (ACC), Toronto, ON, Canada, 2024.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://ieeexplore.ieee.org/abstract/document/10644169"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, F. Djeumou, C. Neary, M. M. K. Oishi, and U. Topcu, “Physics-informed kernel embeddings: Integrating prior system knowledge with data-driven control,” in 2024 American Control Conference (ACC), 2024.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://ieeexplore.ieee.org/abstract/document/10644707"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            K. R. Ortiz, J. G. Hunter, A. J. Thorpe, et al., “Assessing the relationship between learning stages and prefrontal cortex activation in a psychomotor task,” Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 2024.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://journals.sagepub.com/doi/full/10.1177/10711813241260675"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            K. S. Miller, A. J. Thorpe, and U. Topcu, “Active learning of dynamics using prior domain knowledge in the sampling process,” in 2024 63rd IEEE Conference on Decision and Control, 2024.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://arxiv.org/abs/2403.17233"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            H. I. Khan, A. J. Thorpe, and D. Fridovich-Keil, “Act natural! projecting autonomous system trajectories into naturalistic behavior sets,” in IFAC Workshop on Cyber-Physical & Human Systems, 2024.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://arxiv.org/pdf/2405.19292"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3 bg-yellow-50 sm:rounded-lg shadow-sm  hover:shadow-md transition-shadow duration-300">
+          <div class="">
+            T. Ingebrand, A. J. Thorpe, and U. Topcu, “Zero-shot transfer of neural ODEs,” in Advances in Neural Information Processing Systems, 2024.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://arxiv.org/abs/2405.08954"><i class="fas fa-file-alt"></i> Paper</a>
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://github.com/tyler-ingebrand/NeuralODEFunctionEncoder"><i class="fas fa-code"></i> Code</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. Thorpe, T. Lew, M. Oishi, and M. Pavone, “Data-driven chance constrained control using kernel distribution embeddings,” in Proceedings of The 4th Annual Learning for Dynamics and Control Conference, vol. 168, PMLR, 23–24 Jun 2022, pp. 790–802.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://proceedings.mlr.press/v168/thorpe22a.html"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            K. R. Ortiz, A. J. Thorpe, A. Perez, M. Luster, B. J. Pitts, and M. Oishi, “Characterizing within-driver variability in driving dynamics during obstacle avoidance maneuvers,” in IFAC Workshop on Cyber-Physical & Human Systems, 2022.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://www.sciencedirect.com/science/article/pii/S2405896323001039"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe and M. M. K. Oishi, “SOCKS: A stochastic optimal control and reachability toolbox using kernel methods,” in 25th ACM International Conference on Hybrid Systems: Computation and Control, ser. HSCC ’22, Milan, Italy: Association for Computing Machinery, 2022.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://dl.acm.org/doi/abs/10.1145/3501710.3519525"><i class="fas fa-file-alt"></i> Paper</a>
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://github.com/ajthor/socks"><i class="fas fa-code"></i> Code</a>
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://socks.readthedocs.io/en/latest/"><i class="fas fa-book"></i> Project Page</a>
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://www.youtube.com/embed/EfIPzpHy-YQ?si=11vjCSxiAZKqij69"><i class="fab fa-youtube"></i> Video</a>
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, V. Sivaramakrishnan, and M. M. K. Oishi, “Approximate stochastic reachability for high dimensional systems,” in 2021 American Control Conference, 2021, pp. 1287–1293.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://ieeexplore.ieee.org/abstract/document/9483404"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, K. R. Ortiz, and M. M. K. Oishi, “SReachTools kernel module: Data-driven stochastic reachability using Hilbert space embeddings of distributions,” in 2021 60th IEEE Conference on Decision and Control, 2021, pp. 5073–5079.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://ieeexplore.ieee.org/abstract/document/9683169"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, K. R. Ortiz, and M. M. K. Oishi, “Learning approximate forward reachable sets using separating kernels,” in Proceedings of the 3rd Conference on Learning for Dynamics and Control, vol. 144, PMLR, Jul. 2021, pp. 201–212.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://proceedings.mlr.press/v144/thorpe21a.html"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe and M. M. K. Oishi, “Stochastic optimal control via Hilbert space embeddings of distributions,” in 2021 60th IEEE Conference on Decision and Control, 2021, pp. 904–911.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://ieeexplore.ieee.org/abstract/document/9682801"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. Abate, H. Blom, M. Bouissou, et al., “ARCH-COMP21 category report: Stochastic models,” in 8th International Workshop on Applied Verification of Continuous and Hybrid Systems (ARCH21), ser. EPiC Series in Computing, United Kingdom, Dec. 2021, pp. 55–89.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://easychair.org/publications/paper/GjCj"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, J. A. Gonzales, and M. M. K. Oishi, “Data-driven stochastic optimal control using kernel gradients,” in 2023 American Control Conference (ACC), 2023, pp. 2548–2553.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://ieeexplore.ieee.org/abstract/document/10155897"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, “Refining human-centered autonomy using side information,” in 14th ACM/IEEE International Conference on Cyber-Physical Systems, Humans in Cyber-Physical Systems Workshop, 2023.
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://arxiv.org/abs/2305.05607"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+      <li class="p-1 my-3">
+        <a class="">
+          <div class="">
+            A. J. Thorpe, C. L. Arrington, and J. R. Pillars, “Additively manufactured electrochemical plating enclosures,” in ECS Meeting Abstracts, IOP Publishing, 2018, p. 857.
+          </div>
+        </a>
+        <div class="mt-3 mb-1">
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_code"><i class="fas fa-code"></i> Code</a> -->
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="link_to_project_page">Project Page</a> -->
+        </div>
+      </li>
+    </ol>
+
+
+    <h3 class="text-xl font-semibold mb-2 mt-4">Talks</h3>
+
+    <ol class="list-decimal list-outside reference-list">
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, “Data-Driven Stochastic Optimal Control Using Hilbert Space Embeddings of Distributions,” Dissertation Defense, University of New Mexico, 2023
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://search.proquest.com/openview/dcaff5cb74ef68db69db7a52152d7ae9/1?pq-origsite=gscholar&cbl=18750&diss=y"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="video_link"><i class="fab fa-youtube"></i> Video</a> -->
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="assets/2023_dissertation.pdf"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, “Stochastic Optimal Control & Safety Via Kernel Embeddings,” University of Texas at Austin, 2022
+          </div>
+        <div class="mt-3 mb-1">
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="video_link"><i class="fab fa-youtube"></i> Video</a> -->
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="assets/2022_ETHZ.pdf"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, “Stochastic Optimal Control & Safety Via Kernel Embeddings: A Data-Driven Approach,” Weierstrass Institute for Applied Analysis and Stochastics in Berlin, Germany, 2022
+          </div>
+        <div class="mt-3 mb-1">
+          <!-- <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="video_link"><i class="fab fa-youtube"></i> Video</a> -->
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="assets/2022_ETHZ.pdf"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
+        </div>
+      </li>
+      <li class="p-1 my-3">
+          <div class="">
+            A. J. Thorpe, “LP Solutions for Stochastic Optimal Control Problems via Hilbert Space Embeddings of Distributions,” NASA ULI seminar series at Stanford University, 2022
+          </div>
+        <div class="mt-3 mb-1">
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://www.youtube.com/embed/q4Itz-qpoAE?si=Ld38u7UC9Gcte85i"><i class="fab fa-youtube"></i> Video</a>
+          <a class="py-1 px-2 mr-1 rounded-lg bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="assets/2022_NASA_ULI.pdf"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
+        </div>
+      </li>
     </ol>
 
   </div>

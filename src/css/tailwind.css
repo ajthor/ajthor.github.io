@@ -6,3 +6,26 @@
 span.obfuscated-email b {
     display:none
 }
+
+.reference-container {
+  counter-reset: reference-counter;
+}
+
+.reference-list {
+  list-style: none;
+}
+
+.reference-list li {
+  counter-increment: reference-counter;
+  position: relative;
+  padding-left: 3em;
+}
+
+.reference-list li::before {
+  content: "[" counter(reference-counter) "]";
+  position: absolute;
+  left: 0;
+  width: 2.5em;
+  text-align: right;
+  color: #000; /* Customize the color as needed */
+}
