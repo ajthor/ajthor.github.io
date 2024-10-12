@@ -11,7 +11,7 @@
     
 <main class="bg-white sm:py-8">
   <div class="sm:p-2">
-    <div class="bg-slate-200 flex flex-col max-w-4xl sm:mx-auto sm:rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 sm:items-start items-center">
+    <div class="bg-slate-200 flex flex-col max-w-4xl sm:mx-auto sm:rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 sm:items-start items-center">
       <div class="flex sm:flex-row sm:items-start sm:space-y-0 sm:space-x-4 px-2 sm:px-0 flex-col items-center space-y-4">
         <div class="w-64 h-auto min-w-64 sm:m-2 mt-2">
           <img src="/image/profile_cropped.png" alt="Profile Image" class="object-cover rounded-lg">
@@ -37,7 +37,7 @@
   <div class="max-w-4xl mx-auto py-6 px-2">
     <h2 class="text-2xl font-semibold mb-4">Research</h2>
     
-    <p class="pb-1">
+    <p class="pb-0">
       <strong>
         I develop theory and algorithms for autonomy, robotics, control, and engineering that are adaptable, principled, and reliable.
       </strong>
@@ -47,11 +47,11 @@
     </p>
   </div>
 
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-5xl mx-auto">
     <div class="relative">
-        <div class="relative w-full sm:flex sm:snap-x sm:snap-mandatory sm:overflow-auto overflow-x-auto w-full pt-0 pb-10 sm:px-20">
-          <div id="slide-1" class="shrink-0 max-w-4xl sm:snap-center sm:w-full sm:mx-12 mb-12 sm:mb-0">
-            <div class="flex flex-col shrink-0 max-w-3xl w-full h-auto bg-slate-200 mx-auto sm:rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
+        <div class="relative w-full flex snap-x snap-mandatory overflow-auto scrollbar-hidden w-full pt-0 sm:pb-10 sm:px-0">
+          <div id="slide-1" class="shrink-0 max-w-5xl snap-center w-full sm:mx-12 mx-4 mb-12 sm:mb-0 sm:pt-6">
+            <div class="flex flex-col shrink-0 max-w-4xl sm:w-full h-auto bg-slate-200 sm:mx-auto mx-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
               <h3 class="text-xl font-semibold mb-2">Data-Driven Control</h3>
               <p class="text-sm">
                 I developed algorithms using <em>kernel methods</em> to solve approximate reformulations of stochastic optimal control problems that
@@ -60,39 +60,43 @@
                 (iii) are computationally efficient, and
                 (iv) admit finite-sample guarantees.
               </p>
-              <img class="sm:h-48 h-auto object-contain my-2" src="image/kernel_embedding.png">
+              <img class="sm:h-48 h-24 object-contain my-2" src="image/kernel_embedding.png">
               <p class="text-sm">
                 My representative research in this area is comprised of data-driven algorithms for solving <a class="text-sky-600" href="https://proceedings.mlr.press/v168/thorpe22a.html">chance-constrained control problems</a>, <a class="text-sky-600" href="https://ieeexplore.ieee.org/abstract/document/9682801">dynamic programs</a>, and <a class="text-sky-600" href="https://ieeexplore.ieee.org/abstract/document/8906042">stochastic reachability problems</a> with <a class="text-sky-600" href="https://www.sciencedirect.com/science/article/pii/S0005109821006750">finite-sample guarantees</a>. 
                 These algorithms reformulate stochastic optimal control problems using kernel-based estimates of stochastic operators. By representing these operators in Hilbert space, I demonstrated that <em>these problems can be solved efficiently as an LP</em>, and provided solutions for <em>mixed</em> stochastic policies.
               </p>
             </div>
           </div>
-          <div id="slide-2" class="shrink-0 max-w-4xl sm:snap-center sm:w-full sm:mx-12 mb-12 sm:mb-0">
-            <div class="flex flex-col shrink-0 max-w-3xl w-full h-auto bg-slate-200 mx-auto sm:rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
+          <div id="slide-2" class="shrink-0 max-w-4xl snap-center w-full sm:mx-12 mx-4 mb-12 sm:mb-0 sm:pt-6">
+            <div class="flex flex-col shrink-0 max-w-4xl sm:w-full h-auto bg-slate-200 sm:mx-auto mx-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
               <h3 class="text-xl font-semibold mb-2">Computational Engineering</h3>
               <p class="text-sm">
                 I have developed novel methods for <a class="text-sky-600" href="https://arxiv.org/abs/2410.00171">Basis-to-Basis (B2B) operator learning</a>. 
                 Basis-to-Basis operator learning uses function encoders to learn a basis for the domain and codomain of an operator on Hilbert spaces, and then independently learns a mapping between the learned spaces to approximate the operator. 
               </p>
-              <img class="sm:h-48 h-auto object-contain my-2" src="image/b2b_operator.png">
+              <img class="sm:h-48 h-24 object-contain my-2" src="image/b2b_operator.png">
               <p class="text-sm">
                 B2B demonstrates an order of magnitude improvement over existing approaches on several benchmark PDE and operator learning tasks, and overcomes a key challenge faced by existing approaches, which is the need for a fixed input grid or data locations. 
+                Operator learning is a new frontier in machine learning, and I am interested in developing these new methods for operator learning, with a particular interest in applications to robtics, perception, and control. 
               </p>
             </div>
           </div>
-          <div id="slide-3" class="shrink-0 max-w-4xl sm:snap-center sm:w-full sm:mx-12 mb-0 sm:mb-0">
-            <div class="flex flex-col shrink-0 max-w-3xl w-full h-auto bg-slate-200 mx-auto sm:rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
+          <div id="slide-3" class="shrink-0 max-w-4xl snap-center w-full sm:mx-12 mx-4 mb-0 sm:mb-0 sm:pt-6">
+            <div class="flex flex-col shrink-0 max-w-4xl sm:w-full h-auto bg-slate-200 sm:mx-auto mx-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
               <h3 class="text-xl font-semibold mb-2">Human-Centered Autonomy</h3>
               <p class="text-sm">
                 I have developed methods for characterizing human behavior in the context of human-autonomy interaction.
                 Using statistical techniques, I have developed methods that enable the <a class="text-sky-600" href="https://www.sciencedirect.com/science/article/pii/S2405896323001039"><em>quantification of human behavior</em></a> for the purpose of designing autonomy that is responsive to individual needs and preferences.
-                My research in this area highlights several key insights for human-centered autonomy, such as the fact that <a class="text-sky-600" href="https://dl.acm.org/doi/full/10.1145/3653678"><em>there is no universal model of human behavior</em></a>, meaning that autonomy must be designed for individuals, not populations.
               </p>
-              <img class="sm:h-48 h-auto object-contain my-2" src="image/human_embedding.png">
+              <img class="sm:h-48 h-24 object-contain my-2" src="image/human_embedding.png">
               <p class="text-sm">
-                Moving forward, I am interested in developing autonomy that is <em>adaptive</em> and <em>responsive</em> to individual needs and preferences.
+                My research in this area highlights several key insights for human-centered autonomy, such as the fact that <a class="text-sky-600" href="https://dl.acm.org/doi/full/10.1145/3653678"><em>there is no universal model of human behavior</em></a>, meaning that autonomy must be designed for individuals, not populations.
+                I am interested in developing new tools and methodologies for autonomy that can learn and adapt on the fly, without the need for extensive training data, ultimately leading to autonomy that is <em>responsive</em> to individual needs and preferences.
               </p>
             </div>
+          </div>
+          <div class="shrink-0 sm:snap-center">
+            <div class="shrink-0 sm:w-4"></div>
           </div>
         </div>
   
