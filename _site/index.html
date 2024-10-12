@@ -10,7 +10,7 @@
 <body>
     
 <main class="bg-white sm:py-8">
-  <div class="sm:p-2 mx-1">
+  <div class="sm:p-2">
     <div class="bg-slate-200 flex flex-col max-w-4xl sm:mx-auto sm:rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 sm:items-start items-center">
       <div class="flex sm:flex-row sm:items-start sm:space-y-0 sm:space-x-4 px-2 sm:px-0 flex-col items-center space-y-4">
         <div class="w-64 h-auto min-w-64 sm:m-2 mt-2">
@@ -34,10 +34,9 @@
     </div>
   </div>
 
-  <div class="max-w-4xl mx-auto py-6 px-2 reference-container">
-    
+  <div class="max-w-4xl mx-auto py-6 px-2">
     <h2 class="text-2xl font-semibold mb-4">Research</h2>
-
+    
     <p class="pb-1">
       <strong>
         I develop theory and algorithms for autonomy, robotics, control, and engineering that are adaptable, principled, and reliable.
@@ -46,6 +45,66 @@
       By integrating neural network architectures with structured Hilbert space representations, I have developed <a class="text-sky-600" href="https://arxiv.org/abs/2410.00171">principled methods for operator learning</a> and techniques for <a class="text-sky-600" href="https://arxiv.org/abs/2405.08954"><em>zero-shot modeling</em> of dynamical systems</a> that are adaptable to new systems using only a few seconds of online data.
       Using statistical approaches rooted in functional analysis, I developed <em>techniques for characterizing human-autonomy interactions</em> to ultimately design autonomy that is responsive to individual needs and preferences.
     </p>
+  </div>
+
+  <div class="max-w-4xl mx-auto">
+    <div class="relative">
+        <div class="relative w-full sm:flex sm:snap-x sm:snap-mandatory sm:overflow-auto overflow-x-auto w-full pt-0 pb-10 sm:px-20">
+          <div id="slide-1" class="shrink-0 max-w-4xl sm:snap-center sm:w-full sm:mx-12 mb-12 sm:mb-0">
+            <div class="flex flex-col shrink-0 max-w-3xl w-full h-auto bg-slate-200 mx-auto sm:rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
+              <h3 class="text-xl font-semibold mb-2">Data-Driven Control</h3>
+              <p class="text-sm">
+                I developed algorithms using <em>kernel methods</em> to solve approximate reformulations of stochastic optimal control problems that
+                (i) can be solved as a linear program (LP),
+                (ii) can handle non-Gaussian disturbances,
+                (iii) are computationally efficient, and
+                (iv) admit finite-sample guarantees.
+              </p>
+              <img class="sm:h-48 h-auto object-contain my-2" src="image/kernel_embedding.png">
+              <p class="text-sm">
+                My representative research in this area is comprised of data-driven algorithms for solving <a class="text-sky-600" href="https://proceedings.mlr.press/v168/thorpe22a.html">chance-constrained control problems</a>, <a class="text-sky-600" href="https://ieeexplore.ieee.org/abstract/document/9682801">dynamic programs</a>, and <a class="text-sky-600" href="https://ieeexplore.ieee.org/abstract/document/8906042">stochastic reachability problems</a> with <a class="text-sky-600" href="https://www.sciencedirect.com/science/article/pii/S0005109821006750">finite-sample guarantees</a>. 
+                These algorithms reformulate stochastic optimal control problems using kernel-based estimates of stochastic operators. By representing these operators in Hilbert space, I demonstrated that <em>these problems can be solved efficiently as an LP</em>, and provided solutions for <em>mixed</em> stochastic policies.
+              </p>
+            </div>
+          </div>
+          <div id="slide-2" class="shrink-0 max-w-4xl sm:snap-center sm:w-full sm:mx-12 mb-12 sm:mb-0">
+            <div class="flex flex-col shrink-0 max-w-3xl w-full h-auto bg-slate-200 mx-auto sm:rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
+              <h3 class="text-xl font-semibold mb-2">Computational Engineering</h3>
+              <p class="text-sm">
+                I have developed novel methods for <a class="text-sky-600" href="https://arxiv.org/abs/2410.00171">Basis-to-Basis (B2B) operator learning</a>. 
+                Basis-to-Basis operator learning uses function encoders to learn a basis for the domain and codomain of an operator on Hilbert spaces, and then independently learns a mapping between the learned spaces to approximate the operator. 
+              </p>
+              <img class="sm:h-48 h-auto object-contain my-2" src="image/b2b_operator.png">
+              <p class="text-sm">
+                B2B demonstrates an order of magnitude improvement over existing approaches on several benchmark PDE and operator learning tasks, and overcomes a key challenge faced by existing approaches, which is the need for a fixed input grid or data locations. 
+              </p>
+            </div>
+          </div>
+          <div id="slide-3" class="shrink-0 max-w-4xl sm:snap-center sm:w-full sm:mx-12 mb-0 sm:mb-0">
+            <div class="flex flex-col shrink-0 max-w-3xl w-full h-auto bg-slate-200 mx-auto sm:rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
+              <h3 class="text-xl font-semibold mb-2">Human-Centered Autonomy</h3>
+              <p class="text-sm">
+                I have developed methods for characterizing human behavior in the context of human-autonomy interaction.
+                Using statistical techniques, I have developed methods that enable the <a class="text-sky-600" href="https://www.sciencedirect.com/science/article/pii/S2405896323001039"><em>quantification of human behavior</em></a> for the purpose of designing autonomy that is responsive to individual needs and preferences.
+                My research in this area highlights several key insights for human-centered autonomy, such as the fact that <a class="text-sky-600" href="https://dl.acm.org/doi/full/10.1145/3653678"><em>there is no universal model of human behavior</em></a>, meaning that autonomy must be designed for individuals, not populations.
+              </p>
+              <img class="sm:h-48 h-auto object-contain my-2" src="image/human_embedding.png">
+              <p class="text-sm">
+                Moving forward, I am interested in developing autonomy that is <em>adaptive</em> and <em>responsive</em> to individual needs and preferences.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-center mt-2">
+          <a class="text-center text-slate-100 bg-indigo-500 rounded-lg whitespace-nowrap p-1 mx-2 sm:mr-1 sm:ml-0 my-1 hover:bg-indigo-600" href="#slide-1"><i class="fas fa-cubes fa-md mx-1"></i><span class="pr-1"> Data-Driven Control</span></a>
+          <a class="text-center text-slate-100 bg-indigo-500 rounded-lg whitespace-nowrap p-1 mx-2 sm:mr-1 sm:ml-0 my-1 hover:bg-indigo-600" href="#slide-2"><i class="fas fa-flask fa-md mx-1"></i><span class="pr-1"> Computational Engineering</span></a>
+          <a class="text-center text-slate-100 bg-indigo-500 rounded-lg whitespace-nowrap p-1 mx-2 sm:mr-1 sm:ml-0 my-1 hover:bg-indigo-600" href="#slide-3"><i class="fas fa-universal-access fa-md mx-1"></i><span class="pr-1"> Human-Centered Autonomy</span></a>
+        </div>
+      </div>
+  </div>
+  
+  <div class="max-w-4xl mx-auto py-6 px-2 reference-container">
 
     <h3 class="text-xl font-semibold mb-2 mt-4">Journal Articles</h3>
 
@@ -119,7 +178,7 @@
       <li class="p-1 my-3 bg-yellow-50 rounded-lg shadow-sm  hover:shadow-md transition-shadow duration-300">
         <a class="">
           <div class="">
-            A. J. Thorpe, T. Ingebrand, S. Goswami, K. Kumar, and U. Topcu, “Basis-to-basis operator learning: A paradigm for scalable and interpretable operator learning on hilbert spaces,” in 2025 SIAM Conference on Computational Science and Engineering, (Submitted), 2025.
+            A. J. Thorpe, T. Ingebrand, S. Goswami, K. Kumar, and U. Topcu, “Basis-to-basis operator learning: A paradigm for scalable and interpretable operator learning on Hilbert spaces,” in 2025 SIAM Conference on Computational Science and Engineering, (Submitted), 2025.
         </div>
         </a>
         <div class="flex flex-wrap sm:inline-flex mt-2 mb-1">
@@ -316,6 +375,16 @@
 
     <ol class="list-decimal list-outside reference-list">
       <li class="p-1 my-3">
+        <div class="">
+          A. J. Thorpe, “Data-Driven Stochastic Optimal Control Using Hilbert Space Embeddings of Distributions,” Dissertation Defense, University of New Mexico, 2023
+        </div>
+        <div class="flex flex-wrap sm:inline-flex mt-2 mb-1">
+          <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://search.proquest.com/openview/dcaff5cb74ef68db69db7a52152d7ae9/1?pq-origsite=gscholar&cbl=18750&diss=y"><i class="fas fa-file-alt"></i> Paper</a>
+          <!-- <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="video_link"><i class="fab fa-youtube"></i> Video</a> -->
+          <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="assets/2023_dissertation.pdf"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
+        </div>
+      </li>
+      <li class="p-1 my-3">
           <div class="">
             A. J. Thorpe, “Stochastic Optimal Control & Safety Via Kernel Embeddings,” University of Texas at Austin, 2022
           </div>
@@ -340,21 +409,6 @@
         <div class="flex flex-wrap sm:inline-flex mt-2 mb-1">
           <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://www.youtube.com/embed/q4Itz-qpoAE?si=Ld38u7UC9Gcte85i"><i class="fab fa-youtube"></i> Video</a>
           <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="assets/2022_NASA_ULI.pdf"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
-        </div>
-      </li>
-    </ol>
-
-    <h3 class="text-xl font-semibold mb-2 mt-4">Dissertation</h3>
-
-    <ol class="list-decimal list-outside reference-list">
-      <li class="p-1 my-3">
-        <div class="">
-          A. J. Thorpe, “Data-Driven Stochastic Optimal Control Using Hilbert Space Embeddings of Distributions,” Dissertation Defense, University of New Mexico, 2023
-        </div>
-        <div class="flex flex-wrap sm:inline-flex mt-2 mb-1">
-          <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://search.proquest.com/openview/dcaff5cb74ef68db69db7a52152d7ae9/1?pq-origsite=gscholar&cbl=18750&diss=y"><i class="fas fa-file-alt"></i> Paper</a>
-          <!-- <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="video_link"><i class="fab fa-youtube"></i> Video</a> -->
-          <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="assets/2023_dissertation.pdf"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
         </div>
       </li>
     </ol>
