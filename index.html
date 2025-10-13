@@ -47,72 +47,211 @@
     </p>
   </div>
 
-  <div class="max-w-5xl mx-auto">
-    <div class="relative">
   
-        <!-- <div class="flex flex-col sm:flex-row sm:items-center sm:justify-center mt-2">
-          <a class="text-center text-slate-100 bg-indigo-500 rounded-lg whitespace-nowrap p-1 mx-2 sm:mr-1 sm:ml-0 my-1 hover:bg-indigo-600" href="#slide-1"><i class="fas fa-cubes fa-md mx-1"></i><span class="pr-1"> Data-Driven Control</span></a>
-          <a class="text-center text-slate-100 bg-indigo-500 rounded-lg whitespace-nowrap p-1 mx-2 sm:mr-1 sm:ml-0 my-1 hover:bg-indigo-600" href="#slide-2"><i class="fas fa-flask fa-md mx-1"></i><span class="pr-1"> Computational Engineering</span></a>
-          <a class="text-center text-slate-100 bg-indigo-500 rounded-lg whitespace-nowrap p-1 mx-2 sm:mr-1 sm:ml-0 my-1 hover:bg-indigo-600" href="#slide-3"><i class="fas fa-universal-access fa-md mx-1"></i><span class="pr-1"> Human-Centered Autonomy</span></a>
-        </div> -->
-        
-        <div class="relative w-full flex snap-x snap-mandatory overflow-auto scrollbar-hidden w-full pt-0 sm:pb-10 sm:px-0">
-          <div id="slide-1" class="shrink-0 max-w-5xl snap-center w-full sm:mx-12 mx-4 mb-12 sm:mb-0 sm:pt-6">
-            <div class="flex flex-col shrink-0 max-w-4xl sm:w-full h-auto bg-slate-200 sm:mx-auto mx-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
-              <h3 class="text-xl font-semibold mb-2"><i class="fas fa-cubes fa-md mx-1"></i> Data-Driven Control</h3>
-              <p class="text-sm">
-                I developed algorithms using <em>kernel methods</em> to solve approximate reformulations of stochastic optimal control problems that
-                (i) can be solved as a linear program (LP),
-                (ii) can handle non-Gaussian disturbances,
-                (iii) are computationally efficient, and
-                (iv) admit finite-sample guarantees.
-              </p>
-              <img class="sm:h-48 h-24 object-contain my-2" src="image/kernel_embedding.png">
-              <p class="text-sm">
-                My representative research in this area is comprised of data-driven algorithms for solving <a class="text-sky-600" href="https://proceedings.mlr.press/v168/thorpe22a.html">chance-constrained control problems</a>, <a class="text-sky-600" href="https://ieeexplore.ieee.org/abstract/document/9682801">dynamic programs</a>, and <a class="text-sky-600" href="https://ieeexplore.ieee.org/abstract/document/8906042">stochastic reachability problems</a> with <a class="text-sky-600" href="https://www.sciencedirect.com/science/article/pii/S0005109821006750">finite-sample guarantees</a>. 
-                These algorithms reformulate stochastic optimal control problems using kernel-based estimates of stochastic operators. By representing these operators in Hilbert space, I demonstrated that <em>these problems can be solved efficiently as an LP</em>, and provided solutions for <em>mixed</em> stochastic policies.
-              </p>
-            </div>
-          </div>
-          <div id="slide-2" class="shrink-0 max-w-4xl snap-center w-full sm:mx-12 mx-4 mb-12 sm:mb-0 sm:pt-6">
-            <div class="flex flex-col shrink-0 max-w-4xl sm:w-full h-auto bg-slate-200 sm:mx-auto mx-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
-              <h3 class="text-xl font-semibold mb-2"><i class="fas fa-flask fa-md mx-1"></i> Computational Engineering</h3>
-              <p class="text-sm">
-                I have developed novel methods for <a class="text-sky-600" href="https://arxiv.org/abs/2410.00171">Basis-to-Basis (B2B) operator learning</a>. 
-                Basis-to-Basis operator learning uses function encoders to learn a basis for the domain and codomain of an operator on Hilbert spaces, and then independently learns a mapping between the learned spaces to approximate the operator. 
-              </p>
-              <img class="sm:h-48 h-24 object-contain my-2" src="image/b2b_operator.png">
-              <p class="text-sm">
-                B2B demonstrates an order of magnitude improvement over existing approaches on several benchmark PDE and operator learning tasks, and overcomes a key challenge faced by existing approaches, which is the need for a fixed input grid or data locations. 
-                Operator learning is a new frontier in machine learning, and I am interested in developing these new methods for operator learning, with a particular interest in applications to robtics, perception, and control. 
-              </p>
-            </div>
-          </div>
-          <div id="slide-3" class="shrink-0 max-w-4xl snap-center w-full sm:mx-12 mx-4 mb-0 sm:mb-0 sm:pt-6">
-            <div class="flex flex-col shrink-0 max-w-4xl sm:w-full h-auto bg-slate-200 sm:mx-auto mx-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
-              <h3 class="text-xl font-semibold mb-2"><i class="fas fa-universal-access fa-md mx-1"></i> Human-Centered Autonomy</h3>
-              <p class="text-sm">
-                I have developed methods for characterizing human behavior in the context of human-autonomy interaction.
-                Using statistical techniques, I have developed methods that enable the <a class="text-sky-600" href="https://www.sciencedirect.com/science/article/pii/S2405896323001039"><em>quantification of human behavior</em></a> for the purpose of designing autonomy that is responsive to individual needs and preferences.
-              </p>
-              <img class="sm:h-48 h-24 object-contain my-2" src="image/human_embedding.png">
-              <p class="text-sm">
-                My research in this area highlights several key insights for human-centered autonomy, such as the fact that <a class="text-sky-600" href="https://dl.acm.org/doi/full/10.1145/3653678"><em>there is no universal model of human behavior</em></a>, meaning that autonomy must be designed for individuals, not populations.
-                I am interested in developing new tools and methodologies for autonomy that can learn and adapt on the fly, without the need for extensive training data, ultimately leading to autonomy that is <em>responsive</em> to individual needs and preferences.
-              </p>
-            </div>
-          </div>
-          <div class="shrink-0 sm:snap-center">
-            <div class="shrink-0 sm:w-4"></div>
-          </div>
-        </div>
 
-        <div class="absolute bottom-0 left-0 right-0 flex justify-center pb-4">
-          <a href="#slide-1" class="w-2 h-2 mx-1 bg-gray-400 rounded-full hover:bg-gray-600"></a>
-          <a href="#slide-2" class="w-2 h-2 mx-1 bg-gray-400 rounded-full hover:bg-gray-600"></a>
-          <a href="#slide-3" class="w-2 h-2 mx-1 bg-gray-400 rounded-full hover:bg-gray-600"></a>
+  <div class="max-w-4xl mx-auto space-y-6 py-6 px-2">
+    
+    <div class="flex flex-col bg-slate-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+      <h3 class="text-xl font-semibold mb-2">
+        <i class="fas fa-robot fa-md mx-1"></i> Function Encoders for Zero Shot Robotics
+      </h3>
+
+      
+
+      
+        <p class="text-sm mb-2">We develop algorithms that enable robots to learn and adapt on the fly when they encounter something new. Rather than rely on fixed models, our approach lets robots adjust their behavior in real time as conditions change.</p>
+        
+      
+        <p class="text-sm mb-2">I led a project to design a new class of machine learning algorithms that can model entire families of robot dynamics and control policies. The method combines function encoders and neural ordinary differential equations (ODEs) to learn structured representations of dynamical systems that can be updated online in seconds.</p>
+        
+          <img class="max-w-full max-h-72 object-contain my-2" src="image/icra_terrain_adaptation.png">
+        
+      
+        <p class="text-sm mb-2">We demonstrated this through terrain adaptation, where robots learned to adapt their dynamics to new surfaces during operation. We even took our system to a local ice rink in Texas and taught it to drift on ice. Ultimately, these algorithms could enable robots operating in remote, unstructured environments (such as on the Moon) to handle situations that cannot be planned for in advance.</p>
+        
+      
+
+      
+        <div class="space-y-2 mt-3">
+          
+            <div class="flex items-center">
+              <a href="https://arxiv.org/abs/2506.04484" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_arxiv.png" alt="arXiv" class="w-full">
+                
+              </a>
+              <a href="https://arxiv.org/abs/2506.04484" target="_blank" class="ml-3 text-sm text-sky-600">Online Adaptation of Terrain-Aware Dynamics for Planning in Unstructured Environments</a>
+            </div>
+          
+            <div class="flex items-center">
+              <a href="https://arxiv.org/abs/2405.08954" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_arxiv.png" alt="arXiv" class="w-full">
+                
+              </a>
+              <a href="https://arxiv.org/abs/2405.08954" target="_blank" class="ml-3 text-sm text-sky-600">Zero-Shot Transfer of Neural ODEs</a>
+            </div>
+          
+            <div class="flex items-center">
+              <a href="https://github.com/ajthor/function-encoder" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <i class="fab fa-github text-xl text-gray-800"></i>
+                
+              </a>
+              <a href="https://github.com/ajthor/function-encoder" target="_blank" class="ml-3 text-sm text-sky-600">GitHub - ajthor/function-encoder: Function encoder implementation in PyTorch.</a>
+            </div>
+          
         </div>
-      </div>
+      
+    </div>
+    
+    <div class="flex flex-col bg-slate-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+      <h3 class="text-xl font-semibold mb-2">
+        <i class="fas fa-flask fa-md mx-1"></i> Basis to Basis (B2B) Operator Learning
+      </h3>
+
+      
+
+      
+        <p class="text-sm mb-2">We develop methods for operator learning by modeling operators as mappings between learned representations of function spaces. This reframes operator learning as a map between functions, rather than a learned transformation on a fixed mesh, allowing us to capture the structure of complex systems more naturally.</p>
+        
+      
+        <p class="text-sm mb-2">I developed basis-to-basis (B2B) operator learning, an approach that learns separate functional bases for the input and output spaces and then learns how to map between them. This decomposition makes it possible to approximate operators efficiently while preserving their functional relationships.</p>
+        
+          <img class="max-w-full max-h-72 object-contain my-2" src="image/b2b_operator.png">
+        
+      
+        <p class="text-sm mb-2">Traditional operator learning methods depend on discretized inputs, which limits their use in real-world autonomy. By learning in continuous function spaces, we achieve surrogate models that are compact, adaptive, and practical for embedded systems in robotics and autonomous control.</p>
+        
+      
+
+      
+        <div class="space-y-2 mt-3">
+          
+            <div class="flex items-center">
+              <a href="https://www.sciencedirect.com/science/article/pii/S0045782524009009" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_cmame.png" alt="ScienceDirect" class="w-full">
+                
+              </a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0045782524009009" target="_blank" class="ml-3 text-sm text-sky-600">Basis to Basis Operator Learning Using Function Encoders</a>
+            </div>
+          
+        </div>
+      
+    </div>
+    
+    <div class="flex flex-col bg-slate-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+      <h3 class="text-xl font-semibold mb-2">
+        <i class="fas fa-universal-access fa-md mx-1"></i> Cognitive Autonomy for Human Centered Systems
+      </h3>
+
+      
+
+      
+        <p class="text-sm mb-2">We develop autonomy that adapts to people rather than expecting people to adapt to automation. This work was part of an NSF CPS Frontiers project on cognitive autonomy, which brought together control theory, human factors, and cognitive science to understand how humans and autonomous systems can learn from one another.</p>
+        
+      
+        <p class="text-sm mb-2">I developed new methods for modeling and personalizing human–autonomy interaction. A central idea in this work is that there is no universal model of human behavior; autonomy must recognize individual differences and adapt accordingly.</p>
+        
+          <img class="max-w-full max-h-72 object-contain my-2" src="image/human_embedding.png">
+        
+      
+        <p class="text-sm mb-2">As part of this effort, we used functional near-infrared spectroscopy (fNIRS) to measure cognitive activation and developed dynamical models of cognitive state during a quadrotor piloting task. These models captured how attention and workload evolved over time and linked cognitive state changes to control performance. We also created statistical techniques for personalizing autonomy from limited human data, allowing systems to learn how individuals differ in their response to feedback and adapt their behavior accordingly.</p>
+        
+      
+        <p class="text-sm mb-2">We demonstrated these ideas through a personalized quadrotor training system that adjusted task difficulty and feedback based on each learner’s performance and engagement. This work moves toward autonomy that adapts to you as an individual, making intelligent systems more intuitive, safe, and responsive.</p>
+        
+      
+
+      
+        <div class="space-y-2 mt-3">
+          
+            <div class="flex items-center">
+              <a href="https://journals.sagepub.com/doi/10.1177/23312165241252526" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_sage.png" alt="SAGE" class="w-full">
+                
+              </a>
+              <a href="https://journals.sagepub.com/doi/10.1177/23312165241252526" target="_blank" class="ml-3 text-sm text-sky-600">Assessing the Relationship Between Learning Stages and Prefrontal Cortex Activation in a Psychomotor Task</a>
+            </div>
+          
+            <div class="flex items-center">
+              <a href="https://dl.acm.org/doi/10.1145/3629515" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_cps.png" alt="ACM" class="w-full">
+                
+              </a>
+              <a href="https://dl.acm.org/doi/10.1145/3629515" target="_blank" class="ml-3 text-sm text-sky-600">Characterizing the Effect of Mind Wandering on Braking Dynamics in Partially Autonomous Vehicles</a>
+            </div>
+          
+            <div class="flex items-center">
+              <a href="https://arxiv.org/abs/2302.01340" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_arxiv.png" alt="arXiv" class="w-full">
+                
+              </a>
+              <a href="https://arxiv.org/abs/2302.01340" target="_blank" class="ml-3 text-sm text-sky-600">Using Reward Shaping to Train Cognitive-Based Control Policies for Intelligent Tutoring Systems</a>
+            </div>
+          
+        </div>
+      
+    </div>
+    
+    <div class="flex flex-col bg-slate-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+      <h3 class="text-xl font-semibold mb-2">
+        <i class="fas fa-cubes fa-md mx-1"></i> Kernel-Based Stochastic Optimal Control
+      </h3>
+
+      
+
+      
+        <p class="text-sm mb-2">I develop control algorithms that make reliable decisions under uncertainty without making any prior assumptions about the nature of the disturbance. In many real systems, especially those involving people, disturbances are non-Gaussian, unpredictable, and difficult to model. My work focuses on developing principled control algorithms that tackle the most complex stochastic optimal control problems, where the disturbance is completely unknown. These algorithms leverage tools from functional analysis to reason about uncertainty while maintaining formal guarantees on safety and performance.</p>
+        
+      
+        <p class="text-sm mb-2">I developed kernel-based methods for stochastic optimal control that reformulate problems like dynamic programming, chance-constrained optimization, and stochastic reachability directly in reproducing kernel Hilbert spaces. By embedding probability distributions as kernel mean embeddings, these methods capture the full structure of uncertainty, including non-Gaussian and heavy-tailed disturbances, without relying on parametric models.</p>
+        
+          <img class="max-w-full max-h-72 object-contain my-2" src="image/kernel_embedding.png">
+        
+      
+        <p class="text-sm mb-2">The resulting formulations can be solved efficiently as linear programs, allowing controllers to satisfy safety and performance guarantees even in stochastic environments. These techniques are especially powerful in domains where uncertainty is unavoidable and data are scarce, such as space robotics, human-centered autonomy, and safety-critical systems that must operate under unpredictable conditions.</p>
+        
+      
+
+      
+        <div class="space-y-2 mt-3">
+          
+            <div class="flex items-center">
+              <a href="https://arxiv.org/abs/2305.13270" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_arxiv.png" alt="arXiv" class="w-full">
+                
+              </a>
+              <a href="https://arxiv.org/abs/2305.13270" target="_blank" class="ml-3 text-sm text-sky-600">Physics-Informed Kernel Embeddings: Integrating Prior System Knowledge with Data-Driven Control</a>
+            </div>
+          
+            <div class="flex items-center">
+              <a href="https://arxiv.org/abs/2205.09145" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_arxiv.png" alt="arXiv" class="w-full">
+                
+              </a>
+              <a href="https://arxiv.org/abs/2205.09145" target="_blank" class="ml-3 text-sm text-sky-600">Stochastic Optimal Control via Hilbert Space Embeddings of Distributions</a>
+            </div>
+          
+            <div class="flex items-center">
+              <a href="https://arxiv.org/abs/2308.03410" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
+                
+                  <img src="image/thumbnail_arxiv.png" alt="arXiv" class="w-full">
+                
+              </a>
+              <a href="https://arxiv.org/abs/2308.03410" target="_blank" class="ml-3 text-sm text-sky-600">Data-Driven Chance Constrained Control using Kernel Distribution Embeddings</a>
+            </div>
+          
+        </div>
+      
+    </div>
+    
   </div>
   
   <div class="max-w-4xl mx-auto py-6 px-2 reference-container">
@@ -188,17 +327,33 @@
     <ol class="list-decimal list-outside reference-list">
       <li class="p-1 my-3 bg-yellow-50 rounded-lg shadow-sm  hover:shadow-md transition-shadow duration-300">
         <div class="">
-          T. Ingebrand, A. J. Thorpe, U. Topcu, “Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces,” International Conference on Machine Learning (ICML), 2025.
+          S. A. Low, Q. Rommel, K. S. Miller, A. J. Thorpe, U. Topcu, "Function Spaces Without Kernels: Learning Compact Hilbert Space Representations," (Submitted to ICLR 2026).
+        </div>
+        <div class="flex flex-wrap sm:inline-flex mt-2 mb-1">
+          <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://arxiv.org/abs/2509.20605"><i class="fas fa-file-alt"></i> Paper</a>
         </div>
       </li>
       <li class="p-1 my-3 bg-yellow-50 rounded-lg shadow-sm  hover:shadow-md transition-shadow duration-300">
         <div class="">
-          W. Ward, S. Etter, T. Ingebrand, C. Ellis, A. Thorpe, U. Topcu, “Online Adaptation of Terrain-Aware Dynamics for Planning in Unstructured Environments,” RSS 2025 Workshop on Resilient Off-road Autonomous Robotics, 2025.
+          W. Ward, S. Etter, J. Quattrociocchi, C. Ellis, A. J. Thorpe, U. Topcu, "Zero to Autonomy in Real-Time: Online Adaptation of Dynamics in Unstructured Environments," (Submitted to ICRA 2026).
+        </div>
+        <div class="flex flex-wrap sm:inline-flex mt-2 mb-1">
+          <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://arxiv.org/abs/2509.12516"><i class="fas fa-file-alt"></i> Paper</a>
+        </div>
+      </li>
+      <li class="p-1 my-3 bg-yellow-50 rounded-lg shadow-sm  hover:shadow-md transition-shadow duration-300">
+        <div class="">
+          W. Ward, S. Etter, T. Ingebrand, C. Ellis, A. Thorpe, U. Topcu, "Online Adaptation of Terrain-Aware Dynamics for Planning in Unstructured Environments," RSS 2025 Workshop on Resilient Off-road Autonomous Robotics, 2025.
         </div>
         <div class="flex flex-wrap sm:inline-flex mt-2 mb-1">
           <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="assets/2025_rss_roar.pdf"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
           <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://openreview.net/forum?id=T7KHLw3031&noteId=T7KHLw3031"><i class="fas fa-file-alt"></i> Paper</a>
           <a class="py-1 px-2 mr-1 my-1 rounded-lg whitespace-nowrap text-sm bg-indigo-300 text-slate-100 hover:bg-indigo-500" href="https://github.com/ajthor/function-encoder-terrain-adaptation"><i class="fas fa-code"></i> Code</a>
+        </div>
+      </li>
+      <li class="p-1 my-3">
+        <div class="">
+          T. Ingebrand, A. J. Thorpe, U. Topcu, "Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces," International Conference on Machine Learning (ICML), 2025.
         </div>
       </li>
       <li class="p-1 my-3">
