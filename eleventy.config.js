@@ -2,6 +2,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/image");
 
     eleventyConfig.addPassthroughCopy("src/assets/**/*.pdf");
+    eleventyConfig.addPassthroughCopy("src/assets/**/*.mp4");
 
 	// Watch content images for the image pipeline.
 	// eleventyConfig.addWatchTarget("src/**/*.{md,svg,webp,png,jpeg}");

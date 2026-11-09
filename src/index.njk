@@ -44,14 +44,18 @@ layout: layouts/base.njk
   {% set sections = [
     {
       icon: "fas fa-robot",
-      title: "Function Encoders for Zero Shot Robotics",
-      image: "image/icra_terrain_adaptation.png",
+      title: "Rapid Adaptation for Robotics",
       paragraphs: [
-        "We develop algorithms that enable robots to learn and adapt on the fly when they encounter something new. Rather than rely on fixed models, our approach lets robots adjust their behavior in real time as conditions change.",
-        "I led a project to design a new class of machine learning algorithms that can model entire families of robot dynamics and control policies. The method combines function encoders and neural ordinary differential equations (ODEs) to learn structured representations of dynamical systems that can be updated online in seconds.",
-        "We demonstrated this through terrain adaptation, where robots learned to adapt their dynamics to new surfaces during operation. We even took our system to a local ice rink in Texas and taught it to drift on ice. Ultimately, these algorithms could enable robots operating in remote, unstructured environments (such as on the Moon) to handle situations that cannot be planned for in advance."
+        "We develop algorithms that let robots adapt in seconds when they encounter something new. Rather than retrain from scratch, our approach represents entire families of robot dynamics and control policies in a shared, low-dimensional space. Adapting to a new situation then reduces to estimating a small set of coefficients from a short window of data.",
+        "For dynamics, I led a project that combines function encoders with neural ordinary differential equations (ODEs) to learn structured models that update online. We demonstrated this through terrain adaptation, where robots adjusted their dynamics to new surfaces during operation. We even took our system to a local ice rink in Texas and taught it to drift on ice.",
+        "For policies, we learn a low-dimensional space of feedback policies directly from expert demonstrations. Each policy becomes a small coefficient vector, so a robot can identify a new behavior from sparse demonstrations, synthesize a new policy by optimizing only its coefficients, and interpolate smoothly between related behaviors. We showed this on humanoid, quadruped, and quadrotor control, with identification fast enough for real-time use.",
+        "Ultimately, these algorithms could enable robots operating in remote, unstructured environments (such as on the Moon) to handle situations that cannot be planned for in advance."
+      ],
+      media: [
+        { after: 2, type: "video", src: [{ src: "assets/2026_policy_fall.mp4", poster: "image/2026_policy_fall_poster.jpg" }, { src: "assets/2026_policy_getup.mp4", poster: "image/2026_policy_getup_poster.jpg" }], caption: "Humanoid fall and recovery behaviors. Each clip shows the expert reference (left) next to the policy from the learned policy space (right)." }
       ],
       links: [
+        { text: "Learning Reusable Spaces of Feedback Policies", href: "assets/2026_reusable_policies.pdf", type: "pdf" },
         { text: "Online Adaptation of Terrain-Aware Dynamics for Planning in Unstructured Environments", href: "https://arxiv.org/abs/2506.04484", type: "arxiv" },
         { text: "Zero-Shot Transfer of Neural ODEs", href: "https://arxiv.org/abs/2405.08954", type: "arxiv" },
         { text: "GitHub - ajthor/function-encoder: Function encoder implementation in PyTorch.", href: "https://github.com/ajthor/function-encoder", type: "github" }
@@ -114,7 +118,25 @@ layout: layouts/base.njk
 
       {% for p in s.paragraphs %}
         <p class="text-sm mb-2">{{ p | safe }}</p>
-        {% if loop.index == midpoint and s.image %}
+        {% if s.media %}
+          {% set pIndex = loop.index %}
+          {% for m in s.media %}
+            {% if m.after == pIndex %}
+              {% if m.type == "video" %}
+                <figure class="my-2">
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {% for v in m.src %}
+                      <video class="w-full rounded" src="{{ v.src }}" poster="{{ v.poster }}" autoplay muted loop playsinline preload="metadata"></video>
+                    {% endfor %}
+                  </div>
+                  {% if m.caption %}<figcaption class="text-xs text-gray-600 mt-1">{{ m.caption }}</figcaption>{% endif %}
+                </figure>
+              {% else %}
+                <img class="max-w-full max-h-72 object-contain my-2" src="{{ m.src }}">
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% elif loop.index == midpoint and s.image %}
           <img class="max-w-full max-h-72 object-contain my-2" src="{{ s.image }}">
         {% endif %}
       {% endfor %}
@@ -126,6 +148,8 @@ layout: layouts/base.njk
               <a href="{{ link.href }}" target="_blank" class="w-24 h-12 flex-shrink-0 flex items-center justify-center bg-white rounded border border-gray-300 overflow-hidden">
                 {% if link.type == "arxiv" %}
                   <img src="image/thumbnail_arxiv.png" alt="arXiv" class="w-full">
+                {% elif link.type == "pdf" %}
+                  <i class="fas fa-file-pdf text-xl text-red-700"></i>
                 {% elif link.type == "github" %}
                   <i class="fab fa-github text-xl text-gray-800"></i>
                 {% elif link.type == "sciencedirect" %}
